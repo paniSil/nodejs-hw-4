@@ -1,4 +1,4 @@
-function createPage(title, heading, content) {
+export const createPage = (title, heading, content) => {
   return `
     <!DOCTYPE html>
     <html lang="en">
@@ -11,7 +11,22 @@ function createPage(title, heading, content) {
       <p>${content}</p>
     </body>
     </html>
-  `;
+  `
 }
 
-export default createPage
+export const createFormPage = (name, email) => {
+  return `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Form Submitted</title>
+</head>
+<body>
+  <h1>Form Submitted</h1>
+  <p>Name: ${name}</p>
+  <p>Email: ${email}</p>
+</body>
+</html>
+`
+}
