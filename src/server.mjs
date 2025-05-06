@@ -10,7 +10,7 @@ const server = http.createServer((req, res) => handleRequest(req, res));
 
 // Створіть сервер, який слухає вхідні з'єднання на порті `3000`.
 server.listen(PORT, () => {
-  console.log(`Server listening on port ${PORT}`);
+  console.log(`Server is available via http://localhost:${PORT}/`);
 });
 
 // Обов'язково експортувати створений сервер та інші функції для тестів
