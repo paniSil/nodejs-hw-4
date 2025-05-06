@@ -16,5 +16,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage"
-  }
+  },
+  "repository": "https://github.com/paniSil/nodejs-hw-4.git",
+  "author": "paniSil <mzwonko@gmail.com>"
 }

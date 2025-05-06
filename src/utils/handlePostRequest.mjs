@@ -1,4 +1,3 @@
-const querystring = require('querystring')
 import { createPage, createFormPage } from './createPage.mjs'
 
 export const handlePostRequest = (req, res) => {

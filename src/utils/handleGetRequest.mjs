@@ -1,5 +1,5 @@
-const url = require('url')
-import { createPage } from './createPage.mjs'
+import url from 'url';
+import { createPage } from './createPage.mjs';
 
 export const handleGetRequest = (req, res) => {
   const parsedUrl = url.parse(req.url, true)

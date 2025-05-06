@@ -1,7 +1,6 @@
 // Імпортуємо необхідні модулі
 import { handleRequest } from './routers/router.mjs';
-
-const http = require('http');
+import http from 'http'
 
 // Дозволяється використовувати змінну середовища `PORT`
 const PORT = process.env.PORT || 3000;
